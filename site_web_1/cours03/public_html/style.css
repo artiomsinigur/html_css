@@ -1,0 +1,44 @@
+.enonce > .encadre {
+    background-color: tomato;
+  }
+  
+img[title] {
+    background-color: greenyellow !important;
+}
+
+img[width="100"] {
+  background-color: aqua !important;
+}
+
+.remarque time[datetime] {
+  color: red;
+}
+
+div img:first-of-type:hover {
+  border-style: dotted;
+  background-color: greenyellow;
+}
+
+p:nth-child(odd):hover {
+  color: hotpink;
+}
+
+.exercice > p:last-of-type a img[src$="jpg"] {
+  border-style: dashed;
+  border-color: palevioletred;
+}
+
+/* Q8 */
+.table1 tr:nth-child(-2n+10) td {
+  background-color: brown;
+}
+
+/* Q9 */
+.p p:not(:empty) {
+  color: tomato;
+}
+
+/* Q10 */
+.introduction > p:first-child::first-line {
+  color: tomato;
+}

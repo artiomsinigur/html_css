@@ -1,0 +1,66 @@
+h1 {
+	background-color: lightblue;
+}
+
+
+/* Q1  */
+div.enonce img.encadre {
+	border: 3px solid orange;
+}
+
+
+/* Q2 */
+img[title] {
+	border: 3px solid Aquamarine;
+}
+
+
+/* Q3 */
+img[width="100"] {
+	border: 3px solid green;
+}
+
+
+/* Q4 */
+article.remarque time[datetime] {
+	background-color: Lavender;
+}
+
+
+/* Q5 */
+div img:first-of-type:hover {
+	border: 3px solid red;
+}
+
+
+/* Q6 */
+p:nth-of-type(2n+1):hover {
+	color: white;
+	background-color: MidnightBlue;
+}
+
+
+/* Q7 */
+article.exercice p:last-of-type a[href$=".jpg"] {
+	background-color: Maroon;
+	color: white;
+}
+
+
+/* Q8 */
+tbody tr:nth-child(-2n+20) {
+	background-color: Teal;
+}
+
+
+/* Q9 */
+p:empty {
+	padding: 10px;
+	border: 3px solid red;
+}
+
+
+/* Q10 */
+article.introduction p:first-of-type::first-line {
+	text-decoration: underline;
+}

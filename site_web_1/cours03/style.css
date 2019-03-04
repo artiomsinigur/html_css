@@ -1,0 +1,22 @@
+/* 
+Selecteurs des elements enfant
+div p - selecte tous les elements de type a l'interieur de div
+div > p - selecte tout les elements de type de son parent
+-----
+Selecteurs des elements frere/adjancente
+div + p - selecte l'element qui le precede/frere directement 
+div ~ p - selecte tous les elements/freres de type qui le precede
+*/
+ol + li {
+    color: red;
+}
+
+/* Pseudo-Class */
+/* Regler generale */
+/* :nth-child(a n+b); */
+/* 2n+10 - tout les elements pairs a partir de 10
+:nth-child(2n+10);
+10
+12
+14
+*/
